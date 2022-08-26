@@ -1,6 +1,6 @@
 name: flutter_platform_datepicker
 description: This provide default os date picker behaviour
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/Keshav3097/flutter_platform_datepicker.git
 
 environment:

@@ -130,8 +130,7 @@ class _PlatFormDatePickerState extends State<PlatFormDatePicker> {
                             return child!;
                           });
                       if (pickedDate != null) {
-                        String formattedDate =
-                            DateFormat(dateFormat).format(pickedDate);
+                        String formattedDate =  DateFormat(dateFormat).format(pickedDate);
                         setState(() {
                           widget.initialValue = formattedDate;
                           widget.onClick!(formattedDate);
@@ -145,8 +144,7 @@ class _PlatFormDatePickerState extends State<PlatFormDatePicker> {
                   textAlignVertical: TextAlignVertical.center,
                   decoration: InputDecoration(
                     prefixIcon: widget.prefixIcon,
-                    hintStyle:
-                        const TextStyle(color: Colors.grey, fontSize: 16),
+                    hintStyle: const TextStyle(color: Colors.grey, fontSize: 16),
                     enabledBorder: InputBorder.none,
                     focusedBorder: InputBorder.none,
                     isDense: true,
